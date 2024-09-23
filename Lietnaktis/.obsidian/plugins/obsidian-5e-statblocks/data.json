@@ -1,0 +1,143 @@
+{
+  "monsters": [
+    [
+      "Necromancer",
+      {
+        "name": "Necromancer",
+        "size": "Medium",
+        "type": "Humanoid",
+        "subtype": "None",
+        "alignment": "Neutral Evil",
+        "ac": "12 (15 with Mage Armor)",
+        "hp": 22,
+        "hit_dice": "4d8",
+        "speed": "30 ft.",
+        "stats": [
+          9,
+          14,
+          12,
+          16,
+          11,
+          13
+        ],
+        "fage_stats": [
+          1,
+          2,
+          1,
+          3,
+          1,
+          1,
+          2,
+          2,
+          1
+        ],
+        "saves": [
+          {
+            "Intelligence": 5
+          },
+          {
+            "Wisdom": 2
+          }
+        ],
+        "skillsaves": [
+          {
+            "Arcana": 5
+          },
+          {
+            "History": 5
+          }
+        ],
+        "damage_vulnerabilities": "None",
+        "damage_resistances": "Necrotic",
+        "damage_immunities": "None",
+        "condition_immunities": "None",
+        "senses": "Darkvision 60 ft., Passive Perception 10",
+        "languages": "Common, Draconic",
+        "cr": 2,
+        "spells": [
+          {
+            "Cantrips": "Chill Touch, Mage Hand, Minor Illusion"
+          },
+          {
+            "1st level": "Mage Armor, Ray of Sickness, Magic Missile"
+          },
+          {
+            "2nd level": "Blindness/Deafness, Ray of Enfeeblement"
+          }
+        ],
+        "traits": [
+          [
+            "Undead Thralls",
+            "The necromancer can animate one corpse per day as a skeleton or zombie."
+          ],
+          [
+            "Grim Harvest",
+            "Once per turn",
+            "when the necromancer kills a creature with a spell of 1st level or higher",
+            "they regain hit points equal to twice the spell’s level."
+          ]
+        ],
+        "actions": [
+          [
+            "Chill Touch (Cantrip)",
+            {
+              "Ranged Spell Attack": "+5 to hit"
+            },
+            "reach 120 ft.",
+            {
+              "one target. Hit": "9 (2d8) necrotic damage."
+            }
+          ],
+          [
+            "Ray of Sickness (1st level)",
+            {
+              "Ranged Spell Attack": "+5 to hit"
+            },
+            "reach 60 ft.",
+            {
+              "one target. Hit": "10 (2d8) poison damage"
+            },
+            "target must make a Constitution saving throw."
+          ]
+        ],
+        "legendary_actions": [
+          [
+            "None",
+            "No legendary actions."
+          ]
+        ],
+        "reactions": [
+          [
+            "Shield (1st level)",
+            "When hit by an attack",
+            "the necromancer can cast Shield to gain +5 AC until the start of their next turn."
+          ]
+        ]
+      }
+    ]
+  ],
+  "defaultLayouts": {},
+  "layouts": [],
+  "default": "basic-5e-layout",
+  "useDice": true,
+  "renderDice": false,
+  "export": true,
+  "showAdvanced": false,
+  "version": {
+    "major": 4,
+    "minor": 7,
+    "patch": 8
+  },
+  "paths": [
+    "/"
+  ],
+  "autoParse": false,
+  "disableSRD": false,
+  "tryToRenderLinks": true,
+  "debug": false,
+  "notifiedOfFantasy": false,
+  "hideConditionHelp": false,
+  "alwaysImport": false,
+  "defaultLayoutsIntegrated": true,
+  "atomicWrite": false
+}
